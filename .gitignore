@@ -1,0 +1,30 @@
+# Environments
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Models & audio (can be large / are downloaded at runtime)
+models/
+*.onnx
+*.bin
+*.wav
+*.mp3
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Sample output test files
+output.txt
